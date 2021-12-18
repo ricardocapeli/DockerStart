@@ -1,4 +1,4 @@
-# Armazenamento Permanentes
+# Armazenamentos Permanentes
 
 Quando iniciamos um container a partir de uma imagem, a imagem pode ser considerada um pacote “fechado” de uma aplicação, ou seja, a aplicação que está sendo executada em um container faz o processamento mas tem por padrão salvar dados dentro do container.
 
