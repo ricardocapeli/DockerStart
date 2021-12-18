@@ -10,7 +10,7 @@
 Para ter certeza que o container esta executando verifique atraves de linha de comando e depois atraves do seu navegador utilizando o endereço http://localhost:8080. Deve aparecer a mensage "Hello from the httpd-parent container!"
 
 **Obs**
-Conforme vimos, o docker hub não único repositório de imagens existem outros, alguns publicos e outros privados. No seu dia a dia você encontrará as informações necessárias para utilizar a imagem correta. Neste exemplo estamos utilizando o quay.io para baixar a imagem httpd-parent utilizando a tag 2.4.
+Conforme vimos, o docker hub não é o único repositório de imagens, existem outros, alguns públicos e outros privados. No seu dia a dia você encontrará as informações necessárias para utilizar a imagem correta. Neste exemplo estamos utilizando o quay.io para baixar a imagem httpd-parent utilizando a tag 2.4.
 </br>
 
 ### 2 Customize a mensagem apresentada em seu navegador quando é acessado o endereço http://localhost:8080.

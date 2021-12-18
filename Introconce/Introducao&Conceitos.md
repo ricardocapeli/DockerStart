@@ -70,7 +70,7 @@ Repare na figura a seguir, é possível identificar as diferenças entre uma má
 
 Os containers do Docker são as instâncias em execução ao vivo de imagens do Docker. Embora as imagens do Docker sejam arquivos somente leitura, os containers são conteúdo dinâmico, efêmero e executável.
 
-O Docker utiliza o modelo de contêiner para “empacotar” a aplicação que, após ser transformada em imagem Docker, pode ser reproduzida em plataforma de qualquer porte; ou seja, caso a aplicação funcione sem falhas em seu notebook, funcionará também no servidor ou no mainframe. Construa uma vez, execute onde quiser. 
+O Docker utiliza o modelo de container para “empacotar” a aplicação que, após ser transformada em imagem Docker, pode ser reproduzida em plataforma de qualquer porte; ou seja, caso a aplicação funcione sem falhas em seu notebook, funcionará também no servidor ou no mainframe. Construa uma vez, execute onde quiser. 
 
 Para criar o isolamento necessário do processo, o Docker usa a funcionalidade do kernel, denominada de namespaces, que cria ambientes isolados entre containers: os processos de uma aplicação em execução não terão acesso aos recursos de outra. A menos que seja expressamente liberado na configuração de cada ambiente. 
 

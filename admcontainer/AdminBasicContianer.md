@@ -20,10 +20,10 @@ ______
 
 ### **Daemon e Dokcer Hub**
 
-O _Docker daemon_ (dockerd) escuta as solicitações da Docker API e gerencia objetos Docker, como imagens, contêineres, redes e volumes. Um daemon também pode se comunicar com outros daemons para gerenciar serviços Docker.
+O _Docker daemon_ (dockerd) escuta as solicitações da Docker API e gerencia objetos Docker, como imagens, containeres, redes e volumes. Um daemon também pode se comunicar com outros daemons para gerenciar serviços Docker.
 
 O _Docker Hub_ é um registro do Docker hospedado gerenciado por Docker. O Docker Hub tem milhares de imagens de containers de fornecedores de software, projetos de código aberto e da comunidade. O Docker Hub contém software e aplicativos de repositórios oficiais, como NGINX, Logstash, Apache HTTP, Grafana, MySQL, Ubuntu e Oracle Linux.
-Ao iniciar um contêiner, o Docker por padrão puxará automaticamente a imagem correspondente do Docker Hub público se não estiver disponível localmente. Além disso, você também pode criar suas próprias imagens e enviá-las para o Docker Hub em um repositório público ou privado.
+Ao iniciar um container, o Docker por padrão puxará automaticamente a imagem correspondente do Docker Hub público se não estiver disponível localmente. Além disso, você também pode criar suas próprias imagens e enviá-las para o Docker Hub em um repositório público ou privado.
 ______
 
 Depois de verificar se esta funcionando o docker em sua maquina e entender o que é docker hub, vamos então provisionar um outro container com a imagem python. Para isso primeiro vamos ver quais as imagens disponiveis com o nome python.

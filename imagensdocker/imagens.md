@@ -27,7 +27,7 @@ Execute o comando abaixo para visualizar todas as imagens que se encontram local
 # docker image list
 ```
 
-# Criando imagens
+# Criando imagens docker commit
 
 Há duas formas de criar imagens customizadas: com _commit_ e com _Dockerfile_.
 
@@ -35,34 +35,34 @@ Criando imagens com _commit_
 
 É possível criar imagens executando o comando commit, relacionado a um container. Esse comando usa o status atual do container escolhido e cria a imagem com base nele.
 
-Vamos ao exemplo. Primeiro criamos um contêiner qualquer:
+Vamos ao exemplo. Primeiro criamos um container qualquer:
 
 ```
 # docker run -it --name meucontainer ubuntu:16.04 bash
 ```
-Agora que estamos no bash do contêiner, instalamos o nginx:
+Agora que estamos no bash do container, instalamos o nginx:
 
 ```
 # apt-get update \
   apt-get install nginx -y \
   exit
 ```
-Paramos o contêiner com o comando abaixo:
+Paramos o container com o comando abaixo:
 ```
 # docker stop meucontainer
 ```
-Agora, efetuamos o commit desse contêiner em uma imagem:
+Agora, efetuamos o commit desse container em uma imagem:
 ```
 # docker commit meucontainer meuubuntu:nginx
 ```
-No exemplo do comando acima, _meucontainer_  é o nome do contêiner criado e modificado nos passos anteriores; o nome _meuubuntu:nginx_ é a imagem resultante do commit; o estado do meucontainer  é armazenado em uma imagem chamada _meuubuntu:nginx_ que, nesse caso, a única modificação que temos da imagem oficial do ubuntu na versão 16.04 é o pacote nginx instalado.
+No exemplo do comando acima, _meucontainer_  é o nome do container criado e modificado nos passos anteriores; o nome _meuubuntu:nginx_ é a imagem resultante do commit; o estado do meucontainer  é armazenado em uma imagem chamada _meuubuntu:nginx_ que, nesse caso, a única modificação que temos da imagem oficial do ubuntu na versão 16.04 é o pacote nginx instalado.
 
 Para visualizar as images basta executar:
 ```
 # docker run -it --rm meuubuntu:nginx dpkg -l nginx
 ```
 
-# Criando imagens
+# Criando imagens Dockerfile
 
 Quando se utiliza _Dockerfile_ para gerar uma imagem, basicamente, é apresentada uma lista de instruções que serão aplicadas em determinada imagem para que outra imagem seja gerada com base nas modificações.
 
@@ -90,7 +90,7 @@ _RUN_ para informar quais comandos serão executados nesse ambiente para efetuar
 
 _COPY_ é usado para copiar arquivos da estação onde está executando a construção para dentro da imagem. Usamos um arquivo de teste apenas para exemplificar essa possibilidade, mas essa instrução é muito utilizada para enviar arquivos de configuração de ambiente e códigos para serem executados em serviços de aplicação.
 
-_CMD_ para informar qual comando será executado por padrão, caso nenhum seja informado na inicialização de um contêiner a partir dessa imagem. No exemplo, colocamos o comando bash, se essa imagem for usada para iniciar um contêiner e não informamos o comando, ele executará o bash.
+_CMD_ para informar qual comando será executado por padrão, caso nenhum seja informado na inicialização de um container a partir dessa imagem. No exemplo, colocamos o comando bash, se essa imagem for usada para iniciar um container e não informamos o comando, ele executará o bash.
 
 Com o seu arquivo salvo execute o comando:
 ```

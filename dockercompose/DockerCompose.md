@@ -68,7 +68,7 @@ ____
 
 **Docker compose build**
 
-Quando estávamos baixando imagens e, em seguida, executando a imagem como um contêiner, estávamos usando imagens que outras pessoas forneceram por meio do Docker Hub. Como criamos uma imagem Docker personalizada para nosso próprio uso utilizando o docker compose?
+Quando estávamos baixando imagens e, em seguida, executando a imagem como um container, estávamos usando imagens que outras pessoas forneceram por meio do Docker Hub. Como criamos uma imagem Docker personalizada para nosso próprio uso utilizando o docker compose?
 
 Para criar uma imagem personalizada que atenda aos nossos próprios requisitos, precisaremos construir uma imagem que contenha o que precisamos.
 
@@ -150,7 +150,7 @@ Isso diz ao Docker para:
 * Defina as variáveis de ambiente usadas pelo comando flask.
 * Instale o gcc e outras dependências.
 * Copie requirements.txt e instale as dependências do Python.
-* Adicione metadados à imagem para descrever que o contêiner está escutando na porta 5000.
+* Adicione metadados à imagem para descrever que o container está escutando na porta 5000.
 * Copie o diretório atual. no projeto para o diretório de trabalho na imagem.
 * Defina o comando padrão para o recipiente para execução de frasco.
 
