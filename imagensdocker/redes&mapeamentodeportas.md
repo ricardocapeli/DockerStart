@@ -1,4 +1,4 @@
-# Imanges
+# Imagens
 
 Antes de de entender o que é imagem é preciso diferenciar container e imagem.
 
