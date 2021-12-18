@@ -14,4 +14,9 @@ Foi produzido este material que trata dos principais conceitos básicos referent
 5. [Imagens Dockaer](imagensdocker/imagens.md)
 6. [Docker Compose](dockercompose/DockerCompose.md)
 
+## Exercícios guiados
+1. [Exercicio 1](exercicios/1_ExerciciosGuiados.md)
 
+
+## Desafios
+1. [Exercicio 1](exercicios/1_Desafio.md)
