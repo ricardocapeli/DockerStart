@@ -114,7 +114,7 @@ E depos execute o comando:
 # docker ps
 ```
 
-Para poder entrar dentro do container basta utilizar o o attach.
+Para poder entrar dentro do container basta utilizar o _exec it_.
 ```
 # docker exec -it [CONTAINER ID] sh
 ```
@@ -122,6 +122,25 @@ Para poder entrar dentro do container basta utilizar o o attach.
 ![Exec](./imagens/dockerpsexec.png)
 
 _Obs:_ Repare que foi inserido o ID do container e esse ID para cada momento que um container é iniciado é gerado um novo, portanto verifique qual o ID da sua maquina.
+
+Também podemos analisar **logs** que o container esta gerando. Para isto basta localizar o ID ou o nome do seu container e executar o comando:
+
+```
+docker logs [CONTAINER ID]
+```
+![Docker logs](./imagens/dockerlogs.png)
+
+Ou para verificar em tempo real o logs é possivel adicionar um parâmetro, o _-f_.
+
+```
+docker logs [CONTAINER ID] -f
+```
+![Docker logs](./imagens/dockerlogsf.png)
+
+Esta opção pode te auxiliar a identificar possíveis bugs em sua aplicação.
+
+**Obs:** Para este exemplo foi utilizado a imagem do nginx.
+
 
 Agora para para este container vamos usar o comando _stop_.
 ```
@@ -134,6 +153,20 @@ Caso deseje remover o container da sua maquina basta executar:
 ```
 # docker rm [CONTAINER ID]
 ```
+
+Caso deseja remover todas as imagens, networks e todos os containers parados, pode ser utilizado:
+
+```
+# docker system prune
+````
+
+Sera feita uma pergunta e basta selecionar Y e sera efetuado.
+
+Para remover todas as imagens:
+
+```
+# docker image prune
+````
 
 O docker possibilida diversos comando e combinações, para saber mais use o help do docker, e para isso basta executar o comando:
 
