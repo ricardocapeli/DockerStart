@@ -5,6 +5,7 @@ Foi produzido este material que trata dos principais conceitos básicos referent
 * [Apostila Docker](http://files.cod3r.com.br/apostila-docker.pdf)
 * [Docker para desenvolvedores](https://github.com/gomex/docker-para-desenvolvedores)
 
+
 ## Sumário
 
 1. [Introdução e conceitos](Introconce/Introducao&Conceitos.md)
@@ -15,8 +16,16 @@ Foi produzido este material que trata dos principais conceitos básicos referent
 6. [Docker Compose](dockercompose/DockerCompose.md)
 
 ## Exercícios guiados
-1. [Exercicio 1](exercicios/1_ExerciciosGuiados.md)
+1. [Exercício 1](exercicios/1_ExerciciosGuiados.md)
+2. [Exercício 2](exercicios/2_ExerciciosGuiados.md)
+3. [Exercício 3](exercicios/3_ExerciciosGuiados.md)
 
 
 ## Desafios
-1. [Exercicio 1](exercicios/1_Desafio.md)
+1. [Exercício 1](exercicios/1_Desafio.md)
+2. [Exercício 2](exercicios/2_Desafio.md)
+3. [Exercício 3](exercicios/3_Desafio.md)
+
+
+
+_Atenção:_ Este guia é contra indicado para pessoas que tem facilidade em encontrar erros de português. :rofl: :grimacing: :joy:
