@@ -28,4 +28,5 @@ Foi produzido este material que trata dos principais conceitos básicos referent
 
 
 
-_Atenção:_ Este guia é contra indicado para pessoas que tem facilidade em encontrar erros de português. :rofl: :grimacing: :joy:
+_Atenção:_ Este guia é contra indicado para pessoas que tem facilidade em encontrar erros de português. 
+:rofl: :grimacing: :joy:
