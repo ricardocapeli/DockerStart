@@ -57,7 +57,7 @@ Agora, efetuamos o commit desse container em uma imagem:
 ```
 No exemplo do comando acima, _meucontainer_  é o nome do container criado e modificado nos passos anteriores; o nome _meuubuntu:nginx_ é a imagem resultante do commit; o estado do meucontainer  é armazenado em uma imagem chamada _meuubuntu:nginx_ que, nesse caso, a única modificação que temos da imagem oficial do ubuntu na versão 16.04 é o pacote nginx instalado.
 
-Para visualizar as images basta executar:
+Para testar a image criada basta executar:
 ```
 # docker run -it --rm meuubuntu:nginx dpkg -l nginx
 ```
@@ -113,7 +113,7 @@ Assim que fizer o login, você será direcionado para a página que lista seus r
 Crie a tag
 
 ```
-# docker tag lmeuubuntu:nginx_auto new-repo:tagname
+# docker tag -t meuubuntu:nginx_auto new-repo:tagname
 ```
 ```
 # docker push new-repo/teste:tagname

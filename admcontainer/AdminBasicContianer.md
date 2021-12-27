@@ -51,7 +51,7 @@ _Obs:_ Para verificar quais versões disponiveis de imagens basta acessar o port
 
 Para verificar as imagens que estão disponiveis em nossa maquina basta executar:
 ```
-# docker images ls
+# docker image ls
 ```
 
 ![Docker image](./imagens/imagels.png)
@@ -74,7 +74,7 @@ Repare que além do comando para run para executar a imagem python, temos o echo
 
 A estrutura de um comando pode se dar por:
 ```
-# docker container run <parâmetros> <imagem> <CMD> <argumentos>
+# docker run <parâmetros> <imagem> <CMD> <argumentos>
 ```
 
 ![Parâmetros](./imagens/parametros.png)

@@ -12,7 +12,7 @@ Foi produzido este material que trata dos principais conceitos básicos referent
 2. [Administração básica de containers](admcontainer/AdminBasicContianer.md)
 3. [Volumes](volume/volume.md)
 4. [Redes](redes/redes&mapeamentodeportas.md)
-5. [Imagens Dockaer](imagensdocker/imagens.md)
+5. [Imagens Docker](imagensdocker/imagens.md)
 6. [Docker Compose](dockercompose/DockerCompose.md)
 
 ## Exercícios guiados

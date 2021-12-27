@@ -24,7 +24,7 @@ services:
 
   wordpress:
     depends_on:
-      - db 
+      - mysql 
     image: wordpress:latest
     ports:
       - "8000:80"
@@ -44,7 +44,7 @@ Vamos conhecer algumas opções que utilizamos anteriormente:
 
 * _version: \"3\"_ Versão do compose que estamos utilizando.
 * _services:_ Início da definição de meu serviço.
-* _db:_ Nome do serviço.
+* _mysql:_ Nome do serviço.
 * _image: mysql:5.7_ Imagem que vamos utilizar.
 * _volumes_ Neste caso estamos mapeando um volume.
 * _restart_ Caso o container ocorra algum erro ele irá reiniciar.
@@ -154,7 +154,7 @@ Isso diz ao Docker para:
 * Copie o diretório atual. no projeto para o diretório de trabalho na imagem.
 * Defina o comando padrão para o recipiente para execução de frasco.
 
-2.2 Crie um arquivo com o nome _docker-compose.yml, onde será definido os nossos services.
+2.2 Crie um arquivo com o nome _docker-compose.yml_, onde será definido os nossos services.
 
 ```
 version: "3.9"
