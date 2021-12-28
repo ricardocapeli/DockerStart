@@ -113,7 +113,7 @@ Assim que fizer o login, você será direcionado para a página que lista seus r
 Crie a tag
 
 ```
-# docker tag -t meuubuntu:nginx_auto new-repo:tagname
+# docker tag meuubuntu:nginx_auto new-repo:tagname
 ```
 ```
 # docker push new-repo/teste:tagname
