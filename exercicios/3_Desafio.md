@@ -14,7 +14,7 @@ sed -ri -e "/^Listen 80/c\Listen ${PORT}" /etc/httpd/conf/httpd.conf && \
     chown -R apache:apache /run/httpd/
 ```
 * Exponha o valor definido na variável de ambiente PORT para que os usuários do contêiner saibam como acessar o Apache Web Server;
-* Crie uma pasta chamada src, e depois crie uma arquivo index.html. O conteúdo da pasta src/ deve ser copiado para o arquivo Apache DocumentRoot (/var/www/html/) dentro do container.
+* Com a pasta criada no seu desktop e dentro dela o arquivo index.html, deve ser copiado para o arquivo Apache DocumentRoot (/var/www/html/) dentro do container.
   
 
 ### 2 Apos o container executado utilize o comando curl ou o seu navegador para acessar o arquivo index.html que foi criado.
