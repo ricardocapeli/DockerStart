@@ -30,6 +30,13 @@ def hello():
     return 'Hello World! I have been seen {} times.\n'.format(count)
 
 ```
+Arquivo requirements.txt
+
+```
+flask
+redis
+```
+
 * Crie um arquivo Dockerfile e nele voce ira utilizar a seguinte estrutura:
 
 ```
