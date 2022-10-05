@@ -25,7 +25,7 @@ Foi produzido este material que trata dos principais conceitos básicos referent
 1. [Exercício 1](exercicios/1_Desafio.md)
 2. [Exercício 2](exercicios/2_Desafio.md)
 3. [Exercício 3](exercicios/3_Desafio.md)
-4. [Exercício 3](exercicios/4_Desafio.md)
+4. [Exercício 4](exercicios/4_Desafio.md)
 
 
 
